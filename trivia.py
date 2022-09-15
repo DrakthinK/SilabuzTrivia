@@ -25,29 +25,7 @@ def banner():
     print (f'{RED}|                                   correo: pierbryanunu@gmail.com      |')
     print(f'{BLUE} ------------------------------------------------------------------------')
     print ('\n\n')
-<<<<<<< HEAD
-def menu():
-    print ('\n')
-    os.system('clear')
-    print("[+]¿Cuales de las opciones tienen por caracteristicas el leguaje de programacion python?")
-    print ('------------------------------------------------------------------------------------- ')	
-    print ('||                                        OPCIONES                                   ||')
-    print ('||-----------------------------------------------------------------------------------||')
-    print ('||                                                                                   ||')
-    print ('||          [01] Copilado,Estaticamente Tipado,Debilmente Tipado                     ||')
-    print ('||                                                                                   ||')
-    print ('||          [02] Debilmente Tipado,Dinamicamente Tipado,interpretado                 ||')
-    print ('||                                                                                   ||')
-    print ('||          [03] Interpretado,Dinamicamente Tipado,Fuertemente Tipado                ||')
-    print ('||                                                                                   ||')
-    print ('||          [04] Salir                                                               ||')
-    print (' ------------------------------------------------------------------------------------- ')
-
-def menu2(preguntasCompletados):
-=======
-
 def menu(preguntasCompletados):
->>>>>>> 4103e5a (codigo actualizado)
     global opcionesRestantes
     ALLPREGUNTAS={1:'Caracteristicas de Python',2:'Definicion Hardware',3:'Definicion Software',4:'Salir'}
     
@@ -79,11 +57,7 @@ def options():
     global preguntasCompletados
     global competitor
     global opcionesRestantes
-<<<<<<< HEAD
-    menu2(preguntasCompletados)
-=======
     menu(preguntasCompletados)
->>>>>>> 4103e5a (codigo actualizado)
     OPTIONES=[1,2,3,4]
     if competitor=='':      
         competitor =input("Hola,¿Cual es tu nombre? ").replace(' ','').upper()
